@@ -38,3 +38,17 @@ function printHello1() {
 }
 
 printHello1();
+
+let value = 10;
+value = 20;
+console.log(value);
+
+// var nn = 'sumit';
+// let nn = 'kumar'; //Error: nn Identifier is already declared
+// console.log(nn);
+
+
+const pi = 3.14;
+console.log(pi);
+// pi = 3.14785;//Error: Assignment to constant variable
+// console.log(pi);
