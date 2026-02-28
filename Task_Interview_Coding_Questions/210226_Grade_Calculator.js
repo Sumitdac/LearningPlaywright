@@ -9,7 +9,7 @@
 // F: 0-59
 
 let grade;
-let marks = 97;
+let marks = 98;
 
 
 
