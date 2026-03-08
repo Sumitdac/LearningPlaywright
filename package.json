@@ -1,0 +1,22 @@
+{
+  "name": "learningplaywright",
+  "version": "1.0.0",
+  "description": "This repository contains code and resources for learning Playwright automation.",
+  "main": "chapter_03_Identifier_Literals_Operators_Statement.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sumitdac/LearningPlaywright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sumitdac/LearningPlaywright/issues"
+  },
+  "homepage": "https://github.com/Sumitdac/LearningPlaywright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.3"
+  }
+}

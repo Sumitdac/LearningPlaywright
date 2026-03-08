@@ -18,19 +18,17 @@
 // Output:
 // Status Code : 401 Result : FAIL - Unauthorized: Check auth token
 
-let statusCode = 401;
+let statusCode = 505;
 
-// if (typeof (statusCode != "sumit")) {
-//     console.log("StatusCode cannot be a String");
-//     return;
-// }
+if (typeof statusCode === "string") {
+    console.log("StatusCode cannot be a String");
+    return;
+}
 
-
-
-// if (statusCode < 0 || statusCode > 599) {
-//     console.log("StatusCode can not be negative and more than 599");
-//     return;
-// }
+else if (statusCode < 0) {
+    console.log("StatusCode can not be negative");
+    return;
+}
 
 switch (statusCode) {
     case 200:

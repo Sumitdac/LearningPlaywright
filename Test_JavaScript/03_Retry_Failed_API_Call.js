@@ -5,8 +5,37 @@
 // Simulate random success/failure using Math.random() 
 // (40% chance of success: randomValue > 0.6). Log each attempt and print the final result.
 
-let api = 1;
+// Input:
+// MAX_ATTEMPTS = 5
+// Output:
+// Attempt 1: ❌ FAILED (Timeout/Error) Attempt 2: ✅ SUCCESS (Response 200 OK) API 
+// call PASSED after 2 attempt(s).
+
+// Configuration
+let MAX_ATTEMPTS = 5;
+
+let attempt = 0;
+let success = false;
+
 do {
-    console.log("API call", +api);
-    api++;
-} while (api <= 5)
+    attempt++;
+
+    // Generate random number between 0 and 1
+    let randomValue = Math.random();
+
+    if (randomValue > 0.6) {   // 40% success condition
+        console.log("Attempt " + attempt + ": ✅ SUCCESS (Response 200 OK)");
+        success = true;
+    } else {
+        console.log("Attempt " + attempt + ": ❌ FAILED (Timeout/Error)");
+    }
+
+} while (!success && attempt < MAX_ATTEMPTS);
+
+
+// Final Result
+if (success) {
+    console.log("API call PASSED after " + attempt + " attempt(s).");
+} else {
+    console.log("API call FAILED after " + MAX_ATTEMPTS + " attempts. Escalate issue.");
+}

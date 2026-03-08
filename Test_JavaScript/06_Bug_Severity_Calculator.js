@@ -7,3 +7,10 @@
 // - always + blocker → P0 | always + major → P1 | always + minor → P2
 // - often + blocker → P1 | often + major → P2 | often + minor → P3
 // - rarely + blocker → P2 | rarely + major → P3 | rarely + minor → P4
+
+// Input:
+// frequency = "always", impact = "blocker"
+
+// Output:
+// Bug Title: Checkout page crashes on applying coupon Frequency: always
+// Impact: blocker Severity: P0 - Critical: Stop release immediately

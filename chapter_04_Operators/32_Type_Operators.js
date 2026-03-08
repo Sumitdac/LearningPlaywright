@@ -4,5 +4,6 @@ console.log(typeof 3.14);
 
 console.log(typeof true);
 console.log(typeof undefined);
-console.log(typeof null);
-console.log(typeof []);
+console.log(typeof null); //object
+console.log(typeof []); //object
+console.log(typeof NaN);

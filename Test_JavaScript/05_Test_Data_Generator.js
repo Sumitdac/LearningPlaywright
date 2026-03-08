@@ -6,3 +6,11 @@
 // Every 3rd user should be inactive (edge case testing).
 // Demonstrate proper use of var (global counter), let (loop variables), and
 // const (fixed values).
+
+// Input:
+// Generate 8 users
+
+// Output:
+// USR-0001 | TestUser_1 | testuser1@testingacademy.com | admin | ACTIVE USR-0002 |
+// TestUser_2 | testuser2@testingacademy.com | editor | ACTIVE USR-0003 | TestUser_3 |
+// testuser3@testingacademy.com | viewer | INACTIVE

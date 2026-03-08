@@ -8,3 +8,10 @@
 // and comparison type (strictEqual, looseEqual, typeCheck, truthy, lessThan).
 // Run all tests, track pass/fail/error counts, find consecutive passes from
 // start (while loop), find first failure (do...while), and print a comprehensive report.
+
+// Input:
+// { name: "Status code is 200", actual: 200, expected: 200, type: "strictEqual" }
+
+// Output:
+// ✅ TC-01: Status code is 200 → PASS (200 === 200) ...
+// Pass Rate: 80.00% Overall: ❌ FAILED
