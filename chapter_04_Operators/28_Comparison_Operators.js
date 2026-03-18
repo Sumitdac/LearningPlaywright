@@ -9,10 +9,12 @@ console.log(3 <= 4); //true
 console.log(5 == "5"); //true
 console.log(5 === "5"); //false
 
-console.log(5 != "5"); //false
-console.log(5 !== "5"); //true
+console.log(5 != "5"); //false, 5=int, "5" string, both of them are not equal? - loose couple
+console.log(5 !== "5"); //true here == is strict couple
 
 //console.log(5 !=== "5"); //This doesn't exist
 
 // === Strict check we will check the datatype and value
+// == Loose check we will check either value or data type.
+
 

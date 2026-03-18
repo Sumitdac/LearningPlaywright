@@ -20,5 +20,5 @@ console.log(nums.find(x => x > 20)); //25,30,45 -> A-25
 //findIndex
 console.log(nums.findIndex(n => n > 20)); //1
 
-console.log(nums.findLast(n => n > 20));
-console.log(nums.findLastIndex(n => n > 20));
+console.log(nums.findLast(n => n > 20)); //45
+console.log(nums.findLastIndex(n => n > 20)); //3

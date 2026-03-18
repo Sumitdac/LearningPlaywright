@@ -18,10 +18,10 @@ else {
 
 let a = 5;
 let b = a++ + ++a;
-let c = a++ + ++a + ++a + ++a + a++;
+//let c = a++ + ++a + ++a + ++a + a++;
 console.log(b);
 console.log(a);
-console.log(c);
+//console.log(c);
 
 // for (let i = 0; i < 10;) {
 //     console.log("Hello"); //runs infinite times

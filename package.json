@@ -8,8 +8,10 @@
     "type": "git",
     "url": "git+https://github.com/Sumitdac/LearningPlaywright.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Playwright"
+  ],
+  "author": "Sumit Kumar",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Sumitdac/LearningPlaywright/issues"

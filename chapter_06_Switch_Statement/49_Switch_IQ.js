@@ -9,3 +9,5 @@ switch (x) {
         console.log(b2);
         break;
 }
+
+// IT will allow you to have the duplicate case with first as the usage.

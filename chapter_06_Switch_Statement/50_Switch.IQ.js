@@ -10,3 +10,6 @@ switch (value) {
         break;
 
 }
+
+//Output : String '5' matched
+//switch uses ===, so "5" !==5 (different types)

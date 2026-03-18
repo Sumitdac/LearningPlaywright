@@ -18,7 +18,7 @@
 // Output:
 // Status Code : 401 Result : FAIL - Unauthorized: Check auth token
 
-let statusCode = 505;
+let statusCode = 401;
 
 if (typeof statusCode === "string") {
     console.log("StatusCode cannot be a String");
